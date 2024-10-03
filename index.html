@@ -1,0 +1,35 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css"></link>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
+	<script type="text/javascript" src="https://static.cryptowat.ch/assets/scripts/embed.bundle.js"></script>
+	<title>WajiCoin</title>
+	<meta name="description" content="Follow and calculate your crypto funds in real-time." />
+	<link rel="icon" type="image/png" href="favicon.ico" />
+	<script src="jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+<div id="chart-container"></div>
+<div class="total-div">Funds<br /><span id="myTotal">0</span>$ 
+</div>
+<div class="wrapper helper">
+	Welcome to WajiCoin<br />
+	<button class="mode-button" onclick="changeMod()"><img src="favicon.ico" class="main-logo" /></button>
+	<div class="source">Source: <a href="http://www.cryptocompare.com" target="_blank">CryptoCompare</a></div>
+</div>
+<div class="refresh-contain">
+	<button class="refresh-button" onclick="refreshAll()"><i class="fa fa-refresh fa-2x" aria-hidden="true"></i></button>
+</div>
+<div id="content" class="info"></div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.2/socket.io.js"></script>
+<script src="./ccc-streamer-utilities.js"></script>
+<script src="./stream.js"></script>
+
+</body>
+</html>

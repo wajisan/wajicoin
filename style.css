@@ -1,0 +1,291 @@
+body {
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+/*#chart-container {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+}*/
+
+.main-logo {
+	width: 65px;
+    height: 65px;
+    position: absolute;
+    top: -1px;
+    left: 0px;
+}
+
+.refresh-contain {
+	text-align: center;
+    margin-bottom: 10px;
+}
+
+.fa-refresh {
+	font-size: 3em;
+    color: #050303;
+}
+
+.refresh-button {
+    background: white;
+    color: black;
+    width: 38px;
+    text-align: center;
+    height: 38px;
+    border-radius: 35px;
+    line-height: 38px;
+    margin: auto;
+    outline: none;
+}
+
+.source a {
+	color: grey;
+    text-decoration: none
+}
+
+.pairname {
+	position: absolute;
+    top: 8px;
+    left: 8px;
+    background: white;
+    color: black;
+    width: 65px;
+    text-align: center;
+    height: 65px;
+    border-radius: 35px;
+    line-height: 65px;
+}
+
+.under-pair {
+	position: absolute;
+    left: 30px;
+    font-size: 13px;
+    top: 50px;
+    color: grey;
+}
+
+.wrapper {
+	width: 100%;
+	position : relative;
+	max-width: 223px;
+	max-height: 61px;
+	/*margin: 50px;*/
+	margin: auto;
+	margin-bottom: 10px;
+	background-color: black;
+	color: white;
+	padding: 10px 9px 10px 90px;
+	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+	
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+.b-header {
+    position: absolute;
+    right: 5px;
+    height: 26px;
+    width: 27px;
+    top: 4px;
+    border-radius: 28px;
+    color: black;
+    background-color: white;
+    border-color: transparent;
+    outline: 0;
+    cursor: pointer;
+}
+
+.b-header:visited, .b-header:focus {
+	outline:0;
+}
+
+.selected-head {
+	background-color: #595959;
+	color: white;
+}
+
+.i-calc {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    width: 90px;
+    border-radius: 4px;
+    border-color: transparent;
+    text-align: right;
+    font-size: 12px;
+    height: 14px;
+}
+
+.downed {
+	bottom: 44px;
+}
+
+.helper {
+	background: white;
+    color: black;
+    font-size: 22px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+}
+
+.totalpair {
+	color: white;
+}
+
+.total-div {
+	position: relative;
+	text-align: center;
+    font-family: 'Overpass Mono', monospace;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    max-width: 325px;
+    margin: auto;
+    border-radius: 14px 10px 0px 0px;
+    margin-bottom: 12px;
+}
+
+.total {
+    width: 120px;
+    position: absolute;
+    right: 39px;
+    top: 2px;
+    text-align: right;
+    font-size: 21px !important;
+}
+
+.changer {
+
+}
+
+.changer .percent {
+
+}
+
+#myTotal {
+
+}
+
+
+body {
+	    background: linear-gradient(141deg, #ffffff 0%, #999999 51%, #222222 85%);
+}
+
+h1 {
+	font-size: 24px;
+	color: #3083d9;
+	padding: 0;
+	margin: 0px;
+}
+
+.none {
+	display: none;
+}
+
+.custom {
+	margin-top: -18px;
+    height: 22px;
+    padding-top: 0px;
+    padding-bottom: 7px;
+}
+
+.custom h1 {
+	color: #787878;
+	text-align: right;
+}
+
+.label {
+	color: #a5bdc1;
+	font-size: 24px;
+}
+
+.winloss {
+
+}
+
+.price {
+	font-size: 25px;
+	color: white !important;
+}
+
+.value {
+	color: white;
+}
+
+.up {
+	color: #00a934;
+    /*font-size: 27px;*/
+}
+
+.equal {
+	color: white;
+	/*font-size: 27px;*/
+}
+
+.down {
+	color: #b82525;
+    /*font-size: 27px;*/
+}
+
+.source {
+	font-size: 14px;
+    opacity: 0.7;
+    margin-top: 10px;
+    color: black;
+}
+
+h1 strong {
+	color: white;
+}
+
+.market {
+	color: #1cf6ba;
+}
+
+.imp {
+	color: #1cf6ba;
+}
+
+.info .total, .info button {
+	display: inherit;
+}
+.info .inputed {
+	display: none;
+}
+
+.perso .total, .perso button {
+	display: none;
+}
+
+.perso .inputed {
+	display: inherit;
+}
+
+.inputed label:first-of-type {
+	position: absolute;
+    left: 205px;
+    top: 1px;
+    width: 90px;
+}
+
+.inputed label {
+    right: 65px;
+    position: absolute;
+    top: 39px;
+}
+
+.mode-button {
+	position: absolute;
+    top: 8px;
+    right: 8px;
+    background: white;
+    color: black;
+    width: 65px;
+    text-align: center;
+    height: 65px;
+    border-radius: 35px;
+    outline: none !important;
+}
